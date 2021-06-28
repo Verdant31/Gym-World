@@ -4,11 +4,15 @@
   box-sizing: border-box;
 }
 
-body {
-  background: #FFFFFF;
-  color: #FFFFFF;
+:root {
+  --background: #15202B;
+  --sections: #1DA1F2;
 }
 
+body {
+  background: #181818;
+  color: white;
+}
 body, input, textarea, select, button, a {
   font: 400 1rem "Inter", sans-serif;
 }

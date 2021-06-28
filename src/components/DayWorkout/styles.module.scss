@@ -5,7 +5,7 @@
     margin-bottom: 4rem;
     margin-left: 11rem;
     h1{
-        color: black;
+        color: white;
         font-size: 3rem;
     }
 }
@@ -18,8 +18,8 @@
 .workoutDay {
     width: 1400px;
     height: 250px;
-    box-shadow: 4px 4px #E2E2E2;
-    border: 2px solid #E2E2E2;
+    box-shadow: 4px 4px #04D361;
+    border: 2px solid #04D361;
     margin: 0 auto;
     margin-top: 1rem;
     align-items: center;
@@ -29,32 +29,35 @@
     .text {
         width: 50rem;
         h1{
-            color: #2D3748;
+            color: white;
             margin-bottom: 1rem;
             margin-top: -2rem;
         }
 
         span {
-            color: #718096;
+            color: white;
         }
         margin-left: 10rem;
         
         button {
-            position: absolute;
-            left: 67rem;
-            top: 970px;
 
             height: 2rem;
             width: 130px;
+            margin-left: 1px;
+            margin-top: 1rem;
+
             border: 0;
-            border-radius: 0.8rem;
-            background: #2D3748;
+            border-radius: 0.5rem;
+            background: #04D361;
             color: white;
+
             font-size: 1.25rem;
             font-weight: bold;
 
             transition: filter 0.2s;
-
+            a {
+                font-weight: bold;
+            }
             &:hover {
                 filter: brightness(0.8)
             }

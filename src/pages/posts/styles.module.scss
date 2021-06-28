@@ -11,19 +11,20 @@
 
     a {
         display: block;
-        color: black;
+        color: #04d361;
 
         & + a {
             margin-top: 2rem;
             padding-top: 2rem;
-            border-top: 1px solid black;
+            border-top: 1px solid #04d361;
         }
 
         time {
             font-size: 1rem;
             display: flex;
             align-items: center;
-            color: black;
+            color: #04d361;
+            font-weight: bold;
         }
 
         strong {
@@ -35,13 +36,13 @@
         }
 
         p {
-            color: black;
+            color: white;
             margin-top: 0.5rem;
             line-height: 1.625rem;
         }
 
-        &:hover strong {
-            color: yellow;
-        }
+       /*  &:hover strong {
+            
+        } */
     }
 }

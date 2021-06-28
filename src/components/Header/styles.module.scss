@@ -8,7 +8,7 @@
     padding: 4rem 3rem;
 
     span{
-        color: black;
+        color: white;
         font-family: "Inter";
         font-size: 2rem;
         margin-left: 4rem;
@@ -20,7 +20,7 @@
     h1 {
         margin-left: 8rem;
         margin-right: 2rem;
-        color: black;
+        color: white;
         font-weight: bold;
         img {
             margin-left: 5rem;
@@ -45,7 +45,7 @@
             height: 6rem;
             line-height: 6rem;
             
-            color: black;
+            color: white;
 
             transition: color 0.2s;
 
@@ -55,7 +55,7 @@
 
 
             &.active {
-                color: black;
+                color: white;
                 font-weight: bold;
             }
 
@@ -67,7 +67,7 @@
                 position: absolute;
                 bottom: 1px;
                 left: 0;
-                background: #eba417;
+                background: #04d361;
             }
         }
     }
